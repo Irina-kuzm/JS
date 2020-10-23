@@ -1,7 +1,12 @@
 function isEqual(a, b) {
-  // Напиши свой код здесь
-}
+/*  if (!!a) {
+    a = true;
+  }
+  if (!!b) {
+    b = true;
+  } */
+  //return JSON.stringify(a) == JSON.stringify(b);
 
-window.isEqual = isEqual;
+}
 
 export default isEqual;
