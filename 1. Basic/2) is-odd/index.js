@@ -1,5 +1,12 @@
 function isOdd(a) {
-  //Напиши свой код здесь
+  if (a%2==0)
+	{
+    		return true;
+	}
+  else
+	{
+		return false;
+	}
 }
 
 window.isOdd = isOdd;
