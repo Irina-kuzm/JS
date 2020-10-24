@@ -1,11 +1,26 @@
 function isEqual(a, b) {
-/*  if (!!a) {
-    a = true;
-  }
-  if (!!b) {
-    b = true;
-  } */
-  //return JSON.stringify(a) == JSON.stringify(b);
+
+	for (let key in a)  {
+		if (a.key == undefined)  {
+			a.key = 'undefined';
+		}
+	}
+	for (let key in b)  {
+		if (b.key == undefined)  {
+			b.key = 'undefined';
+		}
+	}
+	return JSON.stringify(a) === JSON.stringify(b);
+
+	
+
+
+
+	
+
+	
+
+
 
 }
 
