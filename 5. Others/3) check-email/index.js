@@ -13,7 +13,13 @@
  */
 
 function isValidEmail(email) {
-  // Напиши свой код здесь
+  var isemail = email.lastIndexOf("@gmail.com");
+  if (isemail == -1)  {
+    return false;
+  }
+  else  {
+    return true;
+  }
 }
 
 window.isValidEmail = isValidEmail;

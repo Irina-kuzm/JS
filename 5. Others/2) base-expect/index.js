@@ -9,7 +9,7 @@
  */
 
 function baseExpect(a) {
-  // Напиши свой код здесь
+  return false;
 }
 
 window.baseExpect = baseExpect;
