@@ -18,7 +18,6 @@
  */
 
 class Stack {
-  // Напиши свой код здесь
 }
 
 window.Stack = Stack;
